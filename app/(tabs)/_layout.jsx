@@ -7,6 +7,7 @@ const Layout = () => {
 		<Tabs
 			screenOptions={{
 				headerShown: false,
+				height: 70,
 			}}
 		>
 			<Tabs.Screen
