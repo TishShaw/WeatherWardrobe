@@ -5,7 +5,7 @@ import SearchScreen from '../screens/Search';
 
 const TabTwo = () => {
 	return (
-		<View style={tw`flex-1 items-center justify-center`}>
+		<View>
 			<SearchScreen />
 		</View>
 	);

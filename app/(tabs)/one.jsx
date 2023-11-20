@@ -5,7 +5,7 @@ import tw from 'twrnc';
 
 const TabOne = () => {
 	return (
-		<View style={tw`flex-1 items-center justify-center`}>
+		<View>
 			<HomeScreen />
 		</View>
 	);
