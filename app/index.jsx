@@ -24,8 +24,8 @@ export default function Page() {
 			</Text>
 			{/* Logo goes here */}
 			<Image
-				source={require('../assets/favicon.png')}
-				style={{ height: 100, width: 100, marginBottom: 30, marginTop: 30 }}
+				source={require('../assets/ww__1_.png')}
+				style={{ height: 250, width: 250, marginBottom: 30, marginTop: 30 }}
 			/>
 			<View
 				style={{

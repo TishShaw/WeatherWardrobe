@@ -8,10 +8,10 @@ const LoginScreen = () => {
 
 	return (
 		<View style={tw`h-full bg-[#ffb6b9]`}>
-			<Text style={tw`font-bold text-4xl text-white mb-4 text-center mt-30`}>
+			{/* <Text style={tw`font-bold text-4xl text-white mb-4 text-center mt-30`}>
 				Weather Wardrobe
-			</Text>
-			<Text style={tw` text-2xl text-white  mb-8 text-center`}>Login</Text>
+			</Text> */}
+			{/* <Text style={tw` text-2xl text-white  mb-8 text-center`}>Login</Text> */}
 
 			{/* Logo goes here */}
 			<View
@@ -22,15 +22,19 @@ const LoginScreen = () => {
 				}}
 			>
 				<Image
-					source={require('../../assets/favicon.png')}
+					source={require('../../assets/ww__1_.png')}
 					resizeMode='contain'
 					style={{
-						height: 100,
-						width: 100,
+						height: 150,
+						width: 150,
 						margin: 'auto',
 					}}
 				/>
 			</View>
+
+			<Text style={tw` font-bold text-2xl text-white  mt-8  text-center`}>
+				Login
+			</Text>
 
 			<View
 				style={{

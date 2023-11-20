@@ -8,12 +8,9 @@ const RegisterScreen = () => {
 
 	return (
 		<View style={tw`h-full bg-[#ffb6b9]`}>
-			<Text style={tw`font-bold text-4xl text-white mb-6 text-center mt-22`}>
+			{/* <Text style={tw`font-bold text-4xl text-white mb-2 text-center mt-16`}>
 				Weather Wardrobe
-			</Text>
-			<Text style={tw` text-2xl text-white  mb-8 text-center`}>
-				Create an Account
-			</Text>
+			</Text> */}
 
 			{/* Logo goes here */}
 			<View
@@ -24,14 +21,18 @@ const RegisterScreen = () => {
 				}}
 			>
 				<Image
-					source={require('../../assets/favicon.png')}
+					source={require('../../assets/ww__1_.png')}
 					style={{
-						height: 100,
-						width: 100,
+						height: 150,
+						width: 150,
 						margin: 'auto',
 					}}
 				/>
 			</View>
+
+			<Text style={tw` font-bold text-2xl text-white  mt-8  text-center`}>
+				Create an Account
+			</Text>
 
 			<View
 				style={{
