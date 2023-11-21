@@ -22,7 +22,6 @@ export default function Page() {
 			>
 				Get personalized clothing recommendations for the weather
 			</Text>
-			{/* Logo goes here */}
 			<Image
 				source={require('../assets/ww__1_.png')}
 				style={{ height: 250, width: 250, marginBottom: 30, marginTop: 30 }}

@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, View, TouchableOpacity, ScrollView } from 'react-native';
 import Modal from 'react-native-modal';
 import ProductCard from './ProductCard';
 
 const BoxModal = ({ isVisible, onClose, products }) => {
+	const [favs, setFavs] = useState([]);
+
 	return (
 		<Modal
 			isVisible={isVisible}
@@ -58,7 +60,7 @@ const BoxModal = ({ isVisible, onClose, products }) => {
 						}}
 					>
 						{products.map((product, index) => (
-							<ProductCard key={index} product={product} />
+							<ProductCard key={index} product={product} id={product.id} />
 						))}
 					</View>
 				</ScrollView>

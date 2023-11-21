@@ -1,14 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
 import ProfileScreen from '../screens/Profile';
-import tw from 'twrnc';
 
-const TabTwo = () => {
+const TabFive = () => {
 	return (
-		<View style={tw`flex-1 items-center justify-center`}>
+		<View>
 			<ProfileScreen />
 		</View>
 	);
 };
 
-export default TabTwo;
+export default TabFive;
