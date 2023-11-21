@@ -8,12 +8,6 @@ const LoginScreen = () => {
 
 	return (
 		<View style={tw`h-full bg-[#ffb6b9]`}>
-			{/* <Text style={tw`font-bold text-4xl text-white mb-4 text-center mt-30`}>
-				Weather Wardrobe
-			</Text> */}
-			{/* <Text style={tw` text-2xl text-white  mb-8 text-center`}>Login</Text> */}
-
-			{/* Logo goes here */}
 			<View
 				style={{
 					justifyContent: 'center',

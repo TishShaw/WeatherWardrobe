@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-	View,
-	Text,
-	SafeAreaView,
-	Alert,
-	StyleSheet,
-	Image,
-} from 'react-native';
+import { View, Text, SafeAreaView, Image } from 'react-native';
 import BoxSwiper from '../components/BoxSwiper';
 
 const HomeScreen = () => {
@@ -67,29 +60,5 @@ const HomeScreen = () => {
 		</SafeAreaView>
 	);
 };
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		flexDirection: 'column',
-		justifyContent: 'center',
-		alignItems: 'center',
-		width: '100%',
-		height: '90%',
-		padding: 30,
-	},
-	row: {
-		flex: 1,
-		flexDirection: 'row',
-		width: '100%',
-	},
-	box: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-		borderWidth: 1,
-		borderColor: 'black',
-		margin: 10,
-		height: '45%',
-	},
-});
+
 export default HomeScreen;

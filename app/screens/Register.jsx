@@ -8,11 +8,6 @@ const RegisterScreen = () => {
 
 	return (
 		<View style={tw`h-full bg-[#ffb6b9]`}>
-			{/* <Text style={tw`font-bold text-4xl text-white mb-2 text-center mt-16`}>
-				Weather Wardrobe
-			</Text> */}
-
-			{/* Logo goes here */}
 			<View
 				style={{
 					justifyContent: 'center',

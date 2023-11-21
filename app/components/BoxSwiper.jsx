@@ -25,14 +25,11 @@ const BoxSwiper = () => {
 	};
 
 	const handleBoxPress = (category) => {
-		console.log(`Clicked on ${category}`);
-
 		const item = data.filter((item) => item.category == category);
 		console.log(item?.[0].items);
 
 		setFilteredData(item?.[0].items);
 		setIsSlideUpVisible(true);
-		console.log('filteredData', filteredData);
 	};
 
 	const categories = [
@@ -113,6 +110,7 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		width: '85%',
 		borderWidth: 1,
+		borderRadius: 5,
 	},
 });
 
